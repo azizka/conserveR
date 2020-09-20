@@ -20,3 +20,5 @@ Imports:
     magrittr
 URL: https://github.com/idiv-biodiversity/conserveR
 BugReports: https://github.com/idiv-biodiversity/conserveR/issues
+Depends: 
+    R (>= 2.10)
