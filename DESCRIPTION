@@ -1,13 +1,13 @@
 Package: conserveR
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Identifying Conservation Prioritization Methods Based on Data Availability
+Version: 0.9.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Alexander",
+           family = "Zizka",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "alexander.zizka@idiv.de",
+           comment = c(ORCID = "0000-0002-1680-9192"))
+Description: Helping biologists to chose the most suitable approach to link their research to conservation. After answering few questions on the type of data available, geographic and taxonomic scope, conserveR ranks existing methods for conservation prioritization and systematic conservation planning by suitability. The methods data base of conserveR contains 133 methods for conservation prioritization based on a systematic review of > 12,000 scientific publications from the fields of spatial conservation prioritization, systematic conservation planning, biogeography and ecology.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

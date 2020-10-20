@@ -1,27 +1,35 @@
-
 # conserveR
 
 <!-- badges: start -->
+[![Build Status](https://travis-ci.org/idiv-biodiversity/conserveR.svg?branch=master)](https://travis-ci.org/idiv-biodiversity/conserveR)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 <!-- badges: end -->
 
-The goal of conserveR is to ...
+Helping biologists to chose the most suitable approach to link their research to conservation. After answering few questions on the type of data available, geographic and taxonomic scope, conserveR ranks existing methods for conservation prioritization and systematic conservation planning by suitability.
+
+## Background
+The methods data base of conserveR contains 133 methods for conservation prioritization based on a systematic review of > 12,000 scientific publications from the fields of spatial conservation prioritization, systematic conservation planning, biogeography and ecology.
 
 ## Installation
-
-You can install the developement version of conserveR
 
 ``` r
 library(devtools)
 
-install_github()
+install_github(idiv-biodiversity/conserveR)
 ```
 
 ## Example
-
-This is a basic example which shows you how to solve a common problem:
+The find_methods function will prompt the conserveR input dialog and in the end return a data.frame of conservation prioritization methods ranked by suitability, as well as a visualization of those methods similar to the most suitable ones. 
 
 ``` r
 library(conserveR)
-## basic example code
+
+find_method()
+
 ```
 
+## Citation
+
+```
+citation("conserveR")
+```

@@ -1,0 +1,15 @@
+note <- sprintf("R package version %s", meta$Version)
+
+bibentry(bibtype = "article",
+         title = "Existing methods and future directions to link macro-ecology and conservation prioritization",
+         author = c(person("Alexander", "Zizka"),
+                    person("Christopher D", "Barratt"),
+                    person("Camila", "Duarte Ritter"),
+                    person("Theresa", "Joerger-Hickfang"),
+                    person("Vera", "Zizka")),
+         journal = "submitted",
+         number = "",
+         pages = "",
+         year = 2020,
+         doi = "",
+         url = "https://github.com/azizka/conserver")
