@@ -18,7 +18,7 @@ Imports:
     FactoMineR,
     ggplot2,
     magrittr
-URL: https://github.com/idiv-biodiversity/conserveR
-BugReports: https://github.com/idiv-biodiversity/conserveR/issues
+URL: https://github.com/azizka/conserveR
+BugReports: https://github.com/azizka/conserveR/issues
 Depends: 
     R (>= 2.10)
