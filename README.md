@@ -24,7 +24,9 @@ The find_methods function will prompt the conserveR input dialog and in the end 
 ``` r
 library(conserveR)
 
-find_method()
+out <- find_method()
+
+out
 
 ```
 

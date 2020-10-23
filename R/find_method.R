@@ -25,7 +25,7 @@
 
 
 
-find_method <- function(ranking = c("both", "strict", "inclusive"),
+find_method <- function(ranking = "both",
                         mca = TRUE,
                         plot = TRUE){
   
@@ -33,10 +33,11 @@ find_method <- function(ranking = c("both", "strict", "inclusive"),
   match.arg(arg = ranking,
             choices = c("both", "strict", "inclusive"))
   
-  message("The answers to the following 17 questions will be used to 
-  find the most suitable conservation prioritization methods. 
+  message("The answers to the following 17 questions will be used to
+  find the most suitable conservation prioritization methods.
   Methods will be ranked, not filtered, which means that
-  not all returned methods may fully fit your needs.")
+  not all returned methods may fully fit your needs.
+  a full literature list ist availble under data(literature).")
  
   # get the use input
   inp <- get_user_input()
@@ -124,7 +125,7 @@ find_method <- function(ranking = c("both", "strict", "inclusive"),
   
   # return data.frame
   ## from the trait data
-  tr <- tr[, c("akronym", "method_name", "free_text_description", "DOI/link", "score", "score_strict", "ID", "rank", "rank_strict")]
+  tr <- tr[, c("author", "akronym", "method_name", "free_text_description", "DOI/link", "score", "score_strict", "ID", "rank", "rank_strict")]
   tr$fit_strict = round(tr$score_strict / 17 *100, 1)
   tr$fit_inclusive = round(tr$score / 17 *100, 1)
   tr$ID <- tolower(tr$ID)
@@ -148,23 +149,44 @@ find_method <- function(ranking = c("both", "strict", "inclusive"),
   if(ranking == "both"){
     sel <- out[out$rank_strict < 4,]
     sel <- sel[sel$rank <= sel$rank[3],]
+    sel_fit <- sel$fit_strict 
   }else if(ranking == "strict"){
-    sel <- out[out$rank_strict < 4,]}
-  else if(ranking == "inklusive"){
+    sel <- out[out$rank_strict < 4,]
+    sel_fit <- sel$fit_strict 
+  }else if(ranking == "inklusive"){
     sel <- out[out$rank < 4,]
+    sel_fit <- sel$fit_inclusive
   }
+  
+  # Final output df
+  out <- out[, c("akronym", "method_name", "fit_strict", "fit_inclusive","AUTHOR", "DATE", "TITLE", "JOURNALTITLE", "DOI/link")]
+  names(out) <- c("akronym", "method_name", "fit_strict", "fit_inclusive","authors", "publication_date", "title", "joutnal", "doi_or_link")
 
-  
-  # Print top 3 to screen
+    # Print top 3 to screen
   cat("The three most fitting methods are:\n")
+  cat("\n")
   
-  sprintf("%s, %s (%s): %s. (FIT_strict = %s, FIT_inclusive = %s)", 
-          sel$akronym, 
-          sel$author, 
-          sel$DATE, 
-          sel$free.text.description,
-          sel$fit_strict,
-          sel$fit_inclusive)
+  cat(paste(sel$akronym[1], ", ", sel$author[1], " (", sel$DATE[1], "), ", "FIT = ", sel_fit[1], "%\n", sep = ""))
+  cat(sel$free_text_description[1])
+  cat("\n")
+  cat("\n")
+  
+  cat(paste(sel$akronym[2], ", ", sel$author[2], " (", sel$DATE[2], "), ", "FIT = ", sel_fit[2], "%\n", sep = ""))
+  cat(sel$free_text_description[2])
+  cat("\n")
+  cat("\n")
+  
+  cat(paste(sel$akronym[3], ", ", sel$author[3], " (", sel$DATE[3], "), ", "FIT = ", sel_fit[3], "%\n", sep = ""))
+  cat(sel$free_text_description[3])
+  cat("\n")
+  
+  # sprintf("%s, %s (%s): %s. (FIT_strict = %s, FIT_inclusive = %s)", 
+  #         sel$akronym, 
+  #         sel$author, 
+  #         sel$DATE, 
+  #         sel$free_text_description,
+  #         sel$fit_strict,
+  #         sel$fit_inclusive)
   
   # return ranked data.frame
   return(out)
