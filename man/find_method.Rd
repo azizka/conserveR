@@ -2,13 +2,9 @@
 % Please edit documentation in R/find_method.R
 \name{find_method}
 \alias{find_method}
-\title{Identify Most Suitable MEthods for Conservation Prioritization}
+\title{Identify Most Suitable Methods for Conservation Prioritization}
 \usage{
-find_method(
-  ranking = c("both", "strict", "inclusive"),
-  mca = TRUE,
-  plot = TRUE
-)
+find_method(ranking = "both", mca = TRUE, plot = TRUE)
 }
 \arguments{
 \item{ranking}{character string. The methods used for ranking the methods. See details. One of "both", "strict", "inclusive". Default = "both".}

@@ -1,4 +1,4 @@
-# conserveR
+# conserveR 1.0.0
 
 <!-- badges: start -->
 [![Build Status](https://travis-ci.org/azizka/conserveR.svg?branch=master)](https://travis-ci.org/azizka/conserveR)

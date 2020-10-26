@@ -1,4 +1,4 @@
-#' Identify Most Suitable MEthods for Conservation Prioritization
+#' Identify Most Suitable Methods for Conservation Prioritization
 #' 
 #' Identifies suitable methods for conservation prioritization based on a user dialogue on conservation targets and data availability.
 #' 
@@ -126,8 +126,8 @@ find_method <- function(ranking = "both",
   # return data.frame
   ## from the trait data
   tr <- tr[, c("author", "akronym", "method_name", "free_text_description", "DOI/link", "score", "score_strict", "ID", "rank", "rank_strict")]
-  tr$fit_strict = round(tr$score_strict / 17 *100, 1)
-  tr$fit_inclusive = round(tr$score / 17 *100, 1)
+  tr$fit_strict <-  round(tr$score_strict / 17 *100, 1)
+  tr$fit_inclusive <-  round(tr$score / 17 *100, 1)
   tr$ID <- tolower(tr$ID)
   
   ## from the literature data

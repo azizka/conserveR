@@ -1,0 +1,52 @@
+
+#'Traits
+#'
+#'The dataset of conservation prioritization methods for relevant for 
+#' macro-evolution and macro-ecology including information on data needs, "method traits" and met-data 
+#' 
+#' @format A data frame with thirty-one variables:
+#' \describe{ 
+#' \item{author}{The last name of the first author.}
+#' \item{year}{The publication year.}
+#' \item{acronym}{The acronym of the method as suggested by the authors, or a custom one if there was none available}
+#' \item{method_name}{The full name of the method as suggested by the authors.}
+#' \item{scale}{}
+#' \item{implementation_standard}{How is the method implemented/how can it be used by people, i.e. a software or similar that anyone that would like to use the method could use. "none" if no implementation exists.}
+#' \item{target}{The target of the method. Either "species" or "area".}
+#' \item{scope_terrestrial}{Can the method be applied to terrestrial species/systems? 1 = yes, 0 = no.}
+#' \item{scope_marine}{Can the method be applied to marine species/systems? 1 = yes, 0 = no.}
+#' \item{scope_limnic}{Can the method be applied to limnic species/systems? 1 = yes, 0 = no}
+#' \item{phylogeny}{Does the method include evolutionary aspects (i.e. does it at any point use a phylogeny as input) to prioritize conservation efforts? 1 = yes, 0 = no.}
+#' \item{distribution}{Does the method include distribution aspects of species (i.e. any type of distribution information as input, e.g. species ranges, grid-cell occupancy or occurrence records) to prioritize conservation? 1 = yes, 0 = no.}
+#' \item{functional}{Does the method include functional aspects of species (i.e. functional traits as input data) to prioritize conservation? 1 = yes, 0 = no.}
+#' \item{rarity}{Does the method include species' rarity or commonness (i.e. species abundances as input data) to prioritize conservation? 1 = yes, 0 = no.}
+#' \item{pop_dynamics}{Does the method include changes in species' population density through time? 1 = yes, 0 = no.}
+#' \item{genetics}{Does the method include genetic aspects (i.e. sequence data as input)? For example genetic diversity. 1 = yes, 0 = no.}
+#' \item{ecosystem_services}{Does the method include the importance of species or areas for ecosystem services to prioritize conservation? 1 = yes, 0 = no.}
+#' \item{socio_economic}{Does the method include socio-economic values of species or areas to prioritize conservation effort? 1 = yes, 0 = no.}
+#' \item{landscape_connectivity}{Does the method include landscape connectivity to prioritize conservation effort? 1 = yes, 0 = no.}
+#' \item{land_use}{Does the method include land use factors (i.e. land use data, for instance modelled or remotely sensed) for conservation prioritization? 1 = yes, 0 = no.}
+#' \item{protected_area}{Does the method include protected areas in some way to prioritize conservation effort? 1 = yes, 0 = no.}
+#' \item{extinction_risk}{Does the method include species extinction risk in any way (i.e. the IUCN assessment categories as input data) for conservation prioritization? 1 = yes, 0 = no.}
+#' \item{environment}{Does the method include environmental variables (e.g., modelled precipitation, species niche or worldclim or CRU data as input data)?}
+#' \item{vulnerability}{Does the method include assessments of the vulnerability of species or areas to specific threats, for instance pollution, hunting or logging? 1 = yes, 0 = no}
+#' \item{climate_change}{Does the method include climate change as explicit factor for conservation prioritization?}
+#' \item{includes_simulation}{Does the method include the possibility to conduct simulations?}
+#' \item{free_text_description}{}
+#' \item{DOI/link}{DOI or link t the publication.}
+#' \item{ID}{THe ID to link with the \code{\link{literature}}}
+#' \item{example_taxon_standard}{On which taxon was the method developed/tested?}
+#' \item{example_area_standard}{In which area was the method developed/tested?}
+#' }
+#' 
+"traits"
+
+
+#'Literature
+#'
+#' Literature references for all conservation prioritization methods listed in \code{\link{traits}}, in bib2format.
+#'
+"literature"
+
+
+

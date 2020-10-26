@@ -3,6 +3,7 @@
 # usethis::use_data(DATASET, overwrite = TRUE)
 library(readxl)
 library(tidyverse)
+library(usethis)
 
 traits <- read_excel("data-raw/traits.xlsx")
 
