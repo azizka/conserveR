@@ -1,6 +1,6 @@
 Package: conserveR
 Title: Identifying Conservation Prioritization Methods Based on Data Availability
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     person(given = "Alexander",
            family = "Zizka",
