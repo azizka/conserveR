@@ -1,4 +1,4 @@
-# conserveR 1.0.1
+# conserveR 1.0.2
 
 <!-- badges: start -->
 [![Build Status](https://travis-ci.org/azizka/conserveR.svg?branch=master)](https://travis-ci.org/azizka/conserveR)
@@ -27,6 +27,8 @@ library(conserveR)
 out <- find_method()
 
 out
+
+map_selection(out)
 
 ```
 

@@ -11,6 +11,8 @@
 #' \item{acronym}{The acronym of the method as suggested by the authors, or a custom one if there was none available}
 #' \item{method_name}{The full name of the method as suggested by the authors.}
 #' \item{scale}{}
+#' \item{scalability}{A qualitative assessment how scalable the methods are to large-scale analyses
+#' with hundreds of species or global extent.}
 #' \item{implementation_standard}{How is the method implemented/how can it be used by people, i.e. a software or similar that anyone that would like to use the method could use. "none" if no implementation exists.}
 #' \item{target}{The target of the method. Either "species" or "area".}
 #' \item{scope_terrestrial}{Can the method be applied to terrestrial species/systems? 1 = yes, 0 = no.}
@@ -48,5 +50,15 @@
 #'
 "literature"
 
+#'mca_results
+#'
+#'Results of a multiple correspondence analysis of all methods included in the conserveR package based on the \code{\link{traits}} data set.
+#'Used for visualizaion in \code{\link{map_selection}}.
+#'
+"mca_results"
 
+#' connectivity_network
+#' a bipartite network of methods included in the conserveR p-ackage linked by shared cited references. 
+#' Used for visualization in \code{\link{map_selection}}
+"connectivity_network"
 

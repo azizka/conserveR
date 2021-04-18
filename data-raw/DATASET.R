@@ -29,3 +29,10 @@ literature <- literature %>%
 
 
 use_data(literature, overwrite = TRUE)
+
+# the MCA and network results
+load("data-raw/mca_results.rda")
+use_data(mca_results, overwrite = TRUE)
+
+load("data-raw/connectivity_network.rda")
+use_data(connectivity_network, overwrite = TRUE)

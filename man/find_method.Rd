@@ -4,14 +4,14 @@
 \alias{find_method}
 \title{Identify Most Suitable Methods for Conservation Prioritization}
 \usage{
-find_method(ranking = "both", mca = TRUE, plot = TRUE)
+find_method(ranking = "both", plot = TRUE, weights = NULL)
 }
 \arguments{
 \item{ranking}{character string. The methods used for ranking the methods. See details. One of "both", "strict", "inclusive". Default = "both".}
 
-\item{mca}{logical. If TRUE a multiple correspondence analysis is included, to plot the most suitable and related methods.}
+\item{plot}{logical. IF TRUE the results of the mca are plotted.}
 
-\item{plot}{logical. IF TRUE the results of the mca are plotted.
+\item{weights}{named list. Provide numeric values to wieght questions differently. See details.
 
 Based on the \code{ranking} argument, the conservation prioritization methods in the database are
 ranked according to the user-provided information. If ranking = "strict" methods receive
@@ -19,7 +19,12 @@ one point for each full agreement with user reply (yes and no), if ranking = "in
 methods get one point when they include a feature confirmed by the user (but non for not including it).
 This means that ranking = "inclusive" will  likely return more general methods
 that can include many different types of data and perspectives. If ranking = "both",
-methods are first ranked as in strict and then equal ranks split by the inclusive ranking.}
+methods are first ranked as in strict and then equal ranks split by the inclusive ranking.
+
+The \code{weight} argument allows to change the weighting of individual questions relative to the others.
+The names of the list follow \code{names(traits)}, from \dQuote{scale} (for question 1) to
+\dQuote{includes_simulation} (for question 17). The weights may include any numbers of questions.
+See examples}
 }
 \description{
 Identifies suitable methods for conservation prioritization based on a user dialogue on conservation targets and data availability.
@@ -27,6 +32,8 @@ Identifies suitable methods for conservation prioritization based on a user dial
 \examples{
 \dontrun{
 find_method()
+#double weight to question 3 and 15
+find_method(weights = list(phylogeny = 2, vulnerability = 2))
 }
 
 }
