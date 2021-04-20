@@ -5,7 +5,7 @@
 \alias{mca_results}
 \title{mca_results}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 135 rows and 7 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 134 rows and 7 columns.
 }
 \usage{
 mca_results
