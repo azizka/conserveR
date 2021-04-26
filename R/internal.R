@@ -6,7 +6,7 @@ get_user_input <- function(){
   # inp$target <- menu(c("Area", "Species", "Any"), title="(1/17) What do you want to prioritize?")
   
   ##scale
-  inp$scale <- menu(c("Regional", "Continental", "Global", "Any"), title="(1/17) What is the planned geographic scale")
+  inp$scale <- menu(c("Regional", "Continental", "Global", "Any"), title="(1/17) What is the planned geographic scale?")
   
   ##scope
   inp$scope <- menu(c("Terrestrial", "Marine", "Limnic", "Any"), title="(2/17) Which Realm are you targeting?")
