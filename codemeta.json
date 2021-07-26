@@ -1,5 +1,8 @@
 {
-  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "http://schema.org"
+  ],
   "@type": "SoftwareSourceCode",
   "identifier": "conserveR",
   "description": "Helping biologists to chose the most suitable approach to link their research to conservation. After answering few questions on the type of data available, geographic and taxonomic scope, conserveR ranks existing methods for conservation prioritization and systematic conservation planning by suitability. The methods data base of conserveR contains 133 methods for conservation prioritization based on a systematic review of > 12,000 scientific publications from the fields of spatial conservation prioritization, systematic conservation planning, biogeography and ecology.",
@@ -134,7 +137,7 @@
     }
   ],
   "releaseNotes": "https://github.com/azizka/conserveR/blob/master/NEWS.md",
-  "fileSize": "542.027KB",
+  "fileSize": "548.133KB",
   "contIntegration": "https://travis-ci.org/azizka/conserveR",
   "developmentStatus": "https://www.repostatus.org/#active",
   "citation": [
