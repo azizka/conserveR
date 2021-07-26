@@ -1,7 +1,6 @@
 # conserveR 1.0.3
 
 <!-- badges: start -->
-[![Build Status](https://travis-ci.org/azizka/conserveR.svg?branch=master)](https://travis-ci.org/azizka/conserveR)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![R-CMD-check](https://github.com/azizka/conserveR/workflows/R-CMD-check/badge.svg)](https://github.com/azizka/conserveR/actions)
 <!-- badges: end -->
