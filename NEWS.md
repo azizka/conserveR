@@ -1,3 +1,8 @@
+# conserver 1.0.3 (25.07.2021)
+* tidied up repo
+* fixed typos in documentation
+* updated dependencies in description and namespace
+
 # conserver 1.0.2
 
 * added new methods and updated literature and traits data

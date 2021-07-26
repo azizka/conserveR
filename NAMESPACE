@@ -2,7 +2,7 @@
 
 export(find_method)
 export(map_selection)
-import(ggnet)
+import(GGally)
 import(network)
 importFrom(cowplot,plot_grid)
 importFrom(ggplot2,aes)

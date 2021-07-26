@@ -12,6 +12,6 @@ mca_results
 }
 \description{
 Results of a multiple correspondence analysis of all methods included in the conserveR package based on the \code{\link{traits}} data set.
-Used for visualizaion in \code{\link{map_selection}}.
+Used for visualization in \code{\link{map_selection}}.
 }
 \keyword{datasets}

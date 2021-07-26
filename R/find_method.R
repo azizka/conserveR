@@ -3,8 +3,7 @@
 #' Identifies suitable methods for conservation prioritization based on a user dialogue on conservation targets and data availability.
 #' 
 #' @param ranking character string. The methods used for ranking the methods. See details. One of "both", "strict", "inclusive". Default = "both". 
-#' @param plot logical. IF TRUE the results of the mca are plotted. 
-#' @param weights named list. Provide numeric values to wieght questions differently. See details.
+#' @param weights named list. Provide numeric values to weight questions differently. See details.
 #' 
 #' Based on the \code{ranking} argument, the conservation prioritization methods in the database are
 #'  ranked according to the user-provided information. If ranking = "strict" methods receive 
@@ -33,8 +32,6 @@
 
 
 find_method <- function(ranking = "both",
-                        # mca = TRUE,
-                        plot = TRUE,
                         weights = NULL){
   
   # Checka rguyments

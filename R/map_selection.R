@@ -2,13 +2,13 @@
 #' 
 #' Maps methods selected with \code{\link{find_method}} to the trait space 
 #' and/or citation network of methods included in conserveR, 
-#' to identify further simialr methods.
+#' to identify further similar methods.
 #' 
 #' @param x data.frame. As produced by \code{\link{find_method}}.
 #' @param num numerical. The number of top ranking methods to highlight.
-#' @param type = character. The type of plot, either \dQuote{mca} for the
-#' trait space, \dQuote{citation} for the citation network, or 
-#' \dQuote{both} for both.
+#' @param type = character. The type of plot, either \dQuote{mca} for the results of 
+#' a multiple correspondence analyses of the trait space,
+#'  \dQuote{citation} for the citation network, or \dQuote{both} for both.
 #' 
 #' @examples
 #' \dontrun{
@@ -21,7 +21,7 @@
 #' @importFrom ggplot2 aes ggplot geom_hline geom_vline geom_point scale_colour_manual theme element_blank theme_bw ggtitle scale_colour_manual xlab ylab
 #' @importFrom ggrepel geom_text_repel
 #' @importFrom rlang .data
-#' @import ggnet
+#' @import GGally
 #' @import network
 #' @importFrom cowplot plot_grid
 

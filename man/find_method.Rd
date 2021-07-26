@@ -4,14 +4,12 @@
 \alias{find_method}
 \title{Identify Most Suitable Methods for Conservation Prioritization}
 \usage{
-find_method(ranking = "both", plot = TRUE, weights = NULL)
+find_method(ranking = "both", weights = NULL)
 }
 \arguments{
 \item{ranking}{character string. The methods used for ranking the methods. See details. One of "both", "strict", "inclusive". Default = "both".}
 
-\item{plot}{logical. IF TRUE the results of the mca are plotted.}
-
-\item{weights}{named list. Provide numeric values to wieght questions differently. See details.
+\item{weights}{named list. Provide numeric values to weight questions differently. See details.
 
 Based on the \code{ranking} argument, the conservation prioritization methods in the database are
 ranked according to the user-provided information. If ranking = "strict" methods receive

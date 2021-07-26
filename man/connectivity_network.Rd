@@ -4,7 +4,7 @@
 \name{connectivity_network}
 \alias{connectivity_network}
 \title{connectivity_network
-a bipartite network of methods included in the conserveR p-ackage linked by shared cited references.
+a bipartite network of methods included in the conserveR package linked by shared cited references.
 Used for visualization in \code{\link{map_selection}}}
 \format{
 An object of class \code{network} of length 5.
@@ -14,7 +14,7 @@ connectivity_network
 }
 \description{
 connectivity_network
-a bipartite network of methods included in the conserveR p-ackage linked by shared cited references.
+a bipartite network of methods included in the conserveR package linked by shared cited references.
 Used for visualization in \code{\link{map_selection}}
 }
 \keyword{datasets}

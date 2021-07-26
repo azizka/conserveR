@@ -27,22 +27,21 @@
 #' \item{ecosystem_services}{Does the method include the importance of species or areas for ecosystem services to prioritize conservation? 1 = yes, 0 = no.}
 #' \item{socio_economic}{Does the method include socio-economic values of species or areas to prioritize conservation effort? 1 = yes, 0 = no.}
 #' \item{landscape_connectivity}{Does the method include landscape connectivity to prioritize conservation effort? 1 = yes, 0 = no.}
-#' \item{land_use}{Does the method include land use factors (i.e. land use data, for instance modelled or remotely sensed) for conservation prioritization? 1 = yes, 0 = no.}
+#' \item{land_use}{Does the method include land use factors (i.e. land use data, for instance modeled or remotely sensed) for conservation prioritization? 1 = yes, 0 = no.}
 #' \item{protected_area}{Does the method include protected areas in some way to prioritize conservation effort? 1 = yes, 0 = no.}
-#' \item{extinction_risk}{Does the method include species extinction risk in any way (i.e. the IUCN assessment categories as input data) for conservation prioritization? 1 = yes, 0 = no.}
-#' \item{environment}{Does the method include environmental variables (e.g., modelled precipitation, species niche or worldclim or CRU data as input data)?}
+#' \item{extinction_risk}{Does the method include species extinction risk in any way (i.e. the International Union for the Conservation of Nature assessment categories as input data) for conservation prioritization? 1 = yes, 0 = no.}
+#' \item{environment}{Does the method include environmental variables (e.g., modeled precipitation, species niche or worldclim data as input data)?}
 #' \item{vulnerability}{Does the method include assessments of the vulnerability of species or areas to specific threats, for instance pollution, hunting or logging? 1 = yes, 0 = no}
 #' \item{climate_change}{Does the method include climate change as explicit factor for conservation prioritization?}
 #' \item{includes_simulation}{Does the method include the possibility to conduct simulations?}
 #' \item{free_text_description}{}
-#' \item{DOI/link}{DOI or link t the publication.}
-#' \item{ID}{THe ID to link with the \code{\link{literature}}}
+#' \item{DOI/link}{The digital object identifier or link to a scientific publication.}
+#' \item{ID}{The ID to link with the \code{\link{literature}}}
 #' \item{example_taxon_standard}{On which taxon was the method developed/tested?}
 #' \item{example_area_standard}{In which area was the method developed/tested?}
 #' }
 #' 
 "traits"
-
 
 #'Literature
 #'
@@ -53,12 +52,12 @@
 #'mca_results
 #'
 #'Results of a multiple correspondence analysis of all methods included in the conserveR package based on the \code{\link{traits}} data set.
-#'Used for visualizaion in \code{\link{map_selection}}.
+#'Used for visualization in \code{\link{map_selection}}.
 #'
 "mca_results"
 
 #' connectivity_network
-#' a bipartite network of methods included in the conserveR p-ackage linked by shared cited references. 
+#' a bipartite network of methods included in the conserveR package linked by shared cited references. 
 #' Used for visualization in \code{\link{map_selection}}
 "connectivity_network"
 
