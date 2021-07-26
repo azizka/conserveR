@@ -133,11 +133,11 @@
       "@type": "SoftwareApplication",
       "identifier": "R",
       "name": "R",
-      "version": ">= 2.10"
+      "version": ">= 3.6.0"
     }
   ],
   "releaseNotes": "https://github.com/azizka/conserveR/blob/master/NEWS.md",
-  "fileSize": "548.133KB",
+  "fileSize": "548.487KB",
   "contIntegration": "https://travis-ci.org/azizka/conserveR",
   "developmentStatus": "https://www.repostatus.org/#active",
   "citation": [
