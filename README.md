@@ -3,6 +3,7 @@
 <!-- badges: start -->
 [![Build Status](https://travis-ci.org/azizka/conserveR.svg?branch=master)](https://travis-ci.org/azizka/conserveR)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![R-CMD-check](https://github.com/azizka/conserveR/workflows/R-CMD-check/badge.svg)](https://github.com/azizka/conserveR/actions)
 <!-- badges: end -->
 
 Helping biologists to chose the most suitable approach to link their research to conservation. After answering few questions on the type of data available, geographic and taxonomic scope, conserveR ranks existing methods for conservation prioritization and systematic conservation planning by suitability.

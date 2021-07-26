@@ -7,3 +7,4 @@ a.html
 pre_submission_tests.R
 .travis.yml
 ^codemeta\.json$
+^\.github$

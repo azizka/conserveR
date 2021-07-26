@@ -9,7 +9,7 @@ get_user_input <- function(){
   inp$scale <- menu(c("Regional", "Continental", "Global", "Any"), title="(1/17) What is the planned geographic scale?")
   
   ##scope
-  inp$scope <- menu(c("Terrestrial", "Marine", "Limnic", "Any"), title="(2/17) Which Realm are you targeting?")
+  inp$scope <- menu(c("Terrestrial", "Marine", "Freshwater", "Any"), title="(2/17) Which Realm are you targeting?")
   
   ## phylogeny
   inp$phylogeny <- menu(c("Yes", "No"), title="(3/17) Do you aim to include evolutionary history into the prioritization (i.e. does your data include a phylogeny)?")
@@ -51,7 +51,7 @@ get_user_input <- function(){
   inp$environment <- menu(c("Yes", "No"), title="(15/17) Do you aim to include environmental factors into the prioritization (does your data include for instance climate data)?")
   
   ## Vulnerability
-  inp$vulnerability <- menu(c("Yes", "No"), title="(16/17) Do you aim to include vulnerability into the prioritization (does your data include for instance estaimates of species' vulnerability against specific threats)?")
+  inp$vulnerability <- menu(c("Yes", "No"), title="(16/17) Do you aim to include vulnerability into the prioritization (does your data include for instance estimates of species' vulnerability against specific threats)?")
   
   ## Climate change
   inp$climate_change <- menu(c("Yes", "No"), title="(17/17) Do you aim to include climate change specifically into the prioritization?")

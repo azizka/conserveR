@@ -43,7 +43,7 @@ find_method <- function(ranking = "both",
   find the most suitable conservation prioritization methods.
   Methods will be ranked, not filtered, which means that
   not all returned methods may fully fit your needs.
-  a full literature list ist availble under data(literature).")
+  a full literature list is available with data(literature).")
  
   # get the use input
   inp <- get_user_input()

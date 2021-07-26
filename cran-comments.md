@@ -1,0 +1,1 @@
+There is a note on misspelling of "biogeography" and "conserveR" in the description file, which we both consider spurious. Biogeography is a scientific discipline and conserveR is the name of the package.
