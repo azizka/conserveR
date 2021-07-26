@@ -6,7 +6,7 @@
 #' 
 #' @param x data.frame. As produced by \code{\link{find_method}}.
 #' @param num numerical. The number of top ranking methods to highlight.
-#' @param type = character. The type of plot, either \dQuote{mca} for the results of 
+#' @param type character. The type of plot, either \dQuote{mca} for the results of 
 #' a multiple correspondence analyses of the trait space,
 #'  \dQuote{citation} for the citation network, or \dQuote{both} for both.
 #' 

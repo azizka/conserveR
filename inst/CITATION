@@ -1,5 +1,3 @@
-note <- sprintf("R package version %s", meta$Version)
-
 bibentry(bibtype = "article",
          title = "Existing methods and future directions to link macro-ecology and conservation prioritization",
          author = c(person("Alexander", "Zizka"),

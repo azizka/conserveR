@@ -9,8 +9,12 @@ find_method(ranking = "both", weights = NULL)
 \arguments{
 \item{ranking}{character string. The methods used for ranking the methods. See details. One of "both", "strict", "inclusive". Default = "both".}
 
-\item{weights}{named list. Provide numeric values to weight questions differently. See details.
-
+\item{weights}{named list. Provide numeric values to weight questions differently. See details.}
+}
+\description{
+Identifies suitable methods for conservation prioritization based on a user dialogue on conservation targets and data availability.
+}
+\details{
 Based on the \code{ranking} argument, the conservation prioritization methods in the database are
 ranked according to the user-provided information. If ranking = "strict" methods receive
 one point for each full agreement with user reply (yes and no), if ranking = "inclusive",
@@ -22,10 +26,7 @@ methods are first ranked as in strict and then equal ranks split by the inclusiv
 The \code{weight} argument allows to change the weighting of individual questions relative to the others.
 The names of the list follow \code{names(traits)}, from \dQuote{scale} (for question 1) to
 \dQuote{includes_simulation} (for question 17). The weights may include any numbers of questions.
-See examples}
-}
-\description{
-Identifies suitable methods for conservation prioritization based on a user dialogue on conservation targets and data availability.
+See examples
 }
 \examples{
 \dontrun{

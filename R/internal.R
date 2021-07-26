@@ -51,7 +51,7 @@ get_user_input <- function(){
   inp$environment <- menu(c("Yes", "No"), title="(15/17) Do you aim to include environmental factors into the prioritization (does your data include for instance climate data)?")
   
   ## Vulnerability
-  inp$vulnerability <- menu(c("Yes", "No"), title="(16/17) Do you aim to include vulnerabilityinto the prioritization (does your data include for instance estaimates of species' vulnerability against specific threats)?")
+  inp$vulnerability <- menu(c("Yes", "No"), title="(16/17) Do you aim to include vulnerability into the prioritization (does your data include for instance estaimates of species' vulnerability against specific threats)?")
   
   ## Climate change
   inp$climate_change <- menu(c("Yes", "No"), title="(17/17) Do you aim to include climate change specifically into the prioritization?")

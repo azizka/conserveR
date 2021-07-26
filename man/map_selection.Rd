@@ -11,7 +11,7 @@ map_selection(x, num = 3, type = "both")
 
 \item{num}{numerical. The number of top ranking methods to highlight.}
 
-\item{type}{= character. The type of plot, either \dQuote{mca} for the results of
+\item{type}{character. The type of plot, either \dQuote{mca} for the results of
 a multiple correspondence analyses of the trait space,
 \dQuote{citation} for the citation network, or \dQuote{both} for both.}
 }

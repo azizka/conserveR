@@ -5,6 +5,7 @@
 #' @param ranking character string. The methods used for ranking the methods. See details. One of "both", "strict", "inclusive". Default = "both". 
 #' @param weights named list. Provide numeric values to weight questions differently. See details.
 #' 
+#' @details
 #' Based on the \code{ranking} argument, the conservation prioritization methods in the database are
 #'  ranked according to the user-provided information. If ranking = "strict" methods receive 
 #'  one point for each full agreement with user reply (yes and no), if ranking = "inclusive", 

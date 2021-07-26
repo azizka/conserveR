@@ -15,7 +15,7 @@ The methods data base of conserveR contains 134 methods for conservation priorit
 ``` r
 library(devtools)
 
-install_github(azizka/conserveR)
+install_github(repo = "azizka/conserveR")
 ```
 
 ## Example
@@ -37,3 +37,4 @@ map_selection(out)
 ```
 citation("conserveR")
 ```
+
