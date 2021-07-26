@@ -26,4 +26,4 @@ Imports:
 URL: https://github.com/azizka/conserveR
 BugReports: https://github.com/azizka/conserveR/issues
 Depends: 
-    R (>= 3.6.0)
+    R (>= 3.5.0)
