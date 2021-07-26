@@ -1,0 +1,183 @@
+{
+  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@type": "SoftwareSourceCode",
+  "identifier": "conserveR",
+  "description": "Helping biologists to chose the most suitable approach to link their research to conservation. After answering few questions on the type of data available, geographic and taxonomic scope, conserveR ranks existing methods for conservation prioritization and systematic conservation planning by suitability. The methods data base of conserveR contains 133 methods for conservation prioritization based on a systematic review of > 12,000 scientific publications from the fields of spatial conservation prioritization, systematic conservation planning, biogeography and ecology.",
+  "name": "conserveR: Identifying Conservation Prioritization Methods Based on Data Availability",
+  "codeRepository": "https://github.com/azizka/conserveR",
+  "issueTracker": "https://github.com/azizka/conserveR/issues",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "1.0.3",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.1.0 (2021-05-18)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Alexander",
+      "familyName": "Zizka",
+      "email": "alexander.zizka@idiv.de",
+      "@id": "https://orcid.org/0000-0002-1680-9192"
+    }
+  ],
+  "contributor": {},
+  "copyrightHolder": {},
+  "funder": {},
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Alexander",
+      "familyName": "Zizka",
+      "email": "alexander.zizka@idiv.de",
+      "@id": "https://orcid.org/0000-0002-1680-9192"
+    }
+  ],
+  "softwareSuggestions": [],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "cowplot",
+      "name": "cowplot",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=cowplot"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "GGally",
+      "name": "GGally",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=GGally"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "ggplot2",
+      "name": "ggplot2",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "ggrepel",
+      "name": "ggrepel",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=ggrepel"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "magrittr",
+      "name": "magrittr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=magrittr"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "network",
+      "name": "network",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=network"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "rlang",
+      "name": "rlang",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=rlang"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "utils",
+      "name": "utils"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 2.10"
+    }
+  ],
+  "releaseNotes": "https://github.com/azizka/conserveR/blob/master/NEWS.md",
+  "fileSize": "542.027KB",
+  "contIntegration": "https://travis-ci.org/azizka/conserveR",
+  "developmentStatus": "https://www.repostatus.org/#active",
+  "citation": [
+    {
+      "@type": "ScholarlyArticle",
+      "datePublished": "2020",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": "Alexander",
+          "familyName": "Zizka"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Christopher D",
+          "familyName": "Barratt"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Camila",
+          "familyName": "Duarte Ritter"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Theresa",
+          "familyName": "Joerger-Hickfang"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Vera",
+          "familyName": "Zizka"
+        }
+      ],
+      "name": "Existing methods and future directions to link macro-ecology and conservation prioritization",
+      "url": "https://github.com/azizka/conserver",
+      "isPartOf": {
+        "@type": "PublicationIssue",
+        "datePublished": "2020",
+        "isPartOf": {
+          "@type": ["PublicationVolume", "Periodical"],
+          "name": "submitted"
+        }
+      }
+    }
+  ]
+}
