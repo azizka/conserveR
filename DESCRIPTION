@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "alexander.zizka@idiv.de",
            comment = c(ORCID = "0000-0002-1680-9192"))
-Description: Helping biologists to chose the most suitable approach to link their research to conservation. After answering few questions on the type of data available, geographic and taxonomic scope, conserveR ranks existing methods for conservation prioritization and systematic conservation planning by suitability. The methods data base of conserveR contains 133 methods for conservation prioritization based on a systematic review of > 12,000 scientific publications from the fields of spatial conservation prioritization, systematic conservation planning, biogeography and ecology.
+Description: Helping biologists to chose the most suitable approach to link their research to conservation. After answering few questions on the data available, geographic and taxonomic scope, conserveR ranks existing methods for conservation prioritization and systematic conservation planning by suitability. The methods data base of conserveR contains 133 methods for conservation prioritization based on a systematic review of > 12,000 scientific publications from the fields of spatial conservation prioritization, systematic conservation planning, biogeography and ecology.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
