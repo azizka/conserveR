@@ -13,7 +13,7 @@
 #' @return a plot highlighting the position of the best fitting methods 
 #' in the context of all conservation prioritization methods included in the package. 
 #' Includes two subplots
-#' 1) a multidimensional ‘trait’ resulting from a multiple correspondence analysis, 
+#' 1) a multidimensional trait space resulting from a multiple correspondence analysis, 
 #' 2) a citation network linking different methods by shred scientific publications. 
 #' 
 #' @examples

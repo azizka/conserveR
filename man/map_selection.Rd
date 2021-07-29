@@ -20,7 +20,7 @@ a plot highlighting the position of the best fitting methods
 in the context of all conservation prioritization methods included in the package.
 Includes two subplots
 \enumerate{
-\item a multidimensional ‘trait’ resulting from a multiple correspondence analysis,
+\item a multidimensional trait space resulting from a multiple correspondence analysis,
 \item a citation network linking different methods by shred scientific publications.
 }
 }

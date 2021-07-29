@@ -5,12 +5,12 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "conserveR",
-  "description": "Helping biologists to chose the most suitable approach to link their research to conservation. After answering few questions on the data available, geographic and taxonomic scope, conserveR ranks existing methods for conservation prioritization and systematic conservation planning by suitability. The methods data base of conserveR contains 133 methods for conservation prioritization based on a systematic review of > 12,000 scientific publications from the fields of spatial conservation prioritization, systematic conservation planning, biogeography and ecology.",
+  "description": "Helping biologists to choose the most suitable approach to link their research to conservation. After answering few questions on the data available, geographic and taxonomic scope, 'conserveR' ranks existing methods for conservation prioritization and systematic conservation planning by suitability. The methods data base of 'conserveR' contains 133 methods for conservation prioritization based on a systematic review of > 12,000 scientific publications from the fields of spatial conservation prioritization, systematic conservation planning, biogeography and ecology.",
   "name": "conserveR: Identifying Conservation Prioritization Methods Based on Data Availability",
   "codeRepository": "https://github.com/azizka/conserveR",
   "issueTracker": "https://github.com/azizka/conserveR/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -126,6 +126,30 @@
     },
     {
       "@type": "SoftwareApplication",
+      "identifier": "scales",
+      "name": "scales",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=scales"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "sna",
+      "name": "sna",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=sna"
+    },
+    {
+      "@type": "SoftwareApplication",
       "identifier": "utils",
       "name": "utils"
     },
@@ -137,7 +161,7 @@
     }
   ],
   "releaseNotes": "https://github.com/azizka/conserveR/blob/master/NEWS.md",
-  "fileSize": "546.667KB",
+  "fileSize": "566.213KB",
   "developmentStatus": "https://www.repostatus.org/#active",
   "citation": [
     {
