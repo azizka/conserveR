@@ -10,3 +10,4 @@ pre_submission_tests.R
 ^\.github$
 cran-comments.md
 README.md
+^CRAN-RELEASE$

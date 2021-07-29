@@ -57,7 +57,11 @@
 "mca_results"
 
 #' connectivity_network
-#' a bipartite network of methods included in the conserveR package linked by shared cited references. 
+#' A bipartite network of methods included in the conserveR package linked by shared cited references. 
 #' Used for visualization in \code{\link{map_selection}}
 "connectivity_network"
 
+#' edge
+#' An example dataset of the output of \code{\link{find_method}}. Conservation prioritization methods prioritized 
+#' by fit to an example set of data requirements.
+"edge"

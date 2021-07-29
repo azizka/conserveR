@@ -15,16 +15,22 @@ map_selection(x, num = 3, type = "both")
 a multiple correspondence analyses of the trait space,
 \dQuote{citation} for the citation network, or \dQuote{both} for both.}
 }
+\value{
+a plot highlighting the position of the best fitting methods
+in the context of all conservation prioritization methods included in the package.
+Includes two subplots
+\enumerate{
+\item a multidimensional ‘trait’ resulting from a multiple correspondence analysis,
+\item a citation network linking different methods by shred scientific publications.
+}
+}
 \description{
 Maps methods selected with \code{\link{find_method}} to the trait space
 and/or citation network of methods included in conserveR,
 to identify further similar methods.
 }
 \examples{
-\dontrun{
-sel <- find_method()
-map_selection(sel)
-}
-
+data(edge)
+map_selection(edge)
 
 }

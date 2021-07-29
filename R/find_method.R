@@ -19,6 +19,10 @@
 #'   \dQuote{includes_simulation} (for question 17). The weights may include any numbers of questions. 
 #'   See examples 
 #' 
+#' @return a data.frame containing potentially suitable spatial conservation prioritization 
+#' methods order by goodness of fit according to the user-selected algorithm (best fit on top). 
+#' Furthermore prints the three most suitable methods to screen.
+#' 
 #' @examples
 #' \dontrun{
 #' find_method()

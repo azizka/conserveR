@@ -1,3 +1,9 @@
+# conserver 1.0.4 (29.07.2021)
+* typos in documentation fixed
+* included running example for `map_selection`
+* expanded function documentation
+* added minor functions to `map_selection`
+
 # conserver 1.0.3 (25.07.2021)
 * tidied up repo
 * fixed typos in documentation

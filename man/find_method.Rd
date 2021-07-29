@@ -11,6 +11,11 @@ find_method(ranking = "both", weights = NULL)
 
 \item{weights}{named list. Provide numeric values to weight questions differently. See details.}
 }
+\value{
+a data.frame containing potentially suitable spatial conservation prioritization
+methods order by goodness of fit according to the user-selected algorithm (best fit on top).
+Furthermore prints the three most suitable methods to screen.
+}
 \description{
 Identifies suitable methods for conservation prioritization based on a user dialogue on conservation targets and data availability.
 }

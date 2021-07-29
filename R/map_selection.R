@@ -10,12 +10,15 @@
 #' a multiple correspondence analyses of the trait space,
 #'  \dQuote{citation} for the citation network, or \dQuote{both} for both.
 #' 
-#' @examples
-#' \dontrun{
-#' sel <- find_method()
-#' map_selection(sel)
-#' }
+#' @return a plot highlighting the position of the best fitting methods 
+#' in the context of all conservation prioritization methods included in the package. 
+#' Includes two subplots
+#' 1) a multidimensional ‘trait’ resulting from a multiple correspondence analysis, 
+#' 2) a citation network linking different methods by shred scientific publications. 
 #' 
+#' @examples
+#' data(edge)
+#' map_selection(edge)
 #' 
 #' @export
 #' @importFrom ggplot2 aes ggplot geom_hline geom_vline geom_point scale_colour_manual theme element_blank theme_bw ggtitle scale_colour_manual xlab ylab
