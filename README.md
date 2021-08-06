@@ -1,4 +1,4 @@
-# conserveR 1.0.3
+# conserveR 1.0.4
 
 <!-- badges: start -->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
