@@ -4,6 +4,8 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![R-CMD-check](https://github.com/azizka/conserveR/workflows/R-CMD-check/badge.svg)](https://github.com/azizka/conserveR/actions)
 [![CRAN status](https://www.r-pkg.org/badges/version/conserveR)](https://CRAN.R-project.org/package=conserveR)
+[![downloads](https://cranlogs.r-pkg.org/badges/grand-total/conserveR)](https://cranlogs.r-pkg.org:443/badges/grand-total/conserveR)
+[![rstudio mirror downloads](https://cranlogs.r-pkg.org/badges/conserveR)](https://cranlogs.r-pkg.org:443/badges/conserveR)
 <!-- badges: end -->
 
 Helping biologists to chose the most suitable approach to link their research to conservation. After answering few questions on the type of data available, geographic and taxonomic scope, conserveR ranks existing methods for conservation prioritization and systematic conservation planning by suitability.
